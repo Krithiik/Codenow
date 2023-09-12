@@ -1,0 +1,110 @@
+!<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div>
+      <form action="http://localhost:3010/problems" method="post">
+        <input type="text" name="title" />
+        <input type="text" name="description" />
+        <p>visible testcases</p>
+        <input type="text" name="visibleTestcases[0][input]" />
+        <input type="text" name="visibleTestcases[0][output]" />
+        <input type="text" name="visibleTestcases[1][input]" />
+        <input type="text" name="visibleTestcases[1][output]" />
+        <input type="text" name="visibleTestcases[2][input]" />
+        <input type="text" name="visibleTestcases[2][output]" />
+        <p>invisible testcases</p>
+        <input type="text" name="invisibleTestcases[0][input]" />
+        <input type="text" name="invisibleTestcases[0][output]" />
+        <input type="text" name="invisibleTestcases[1][input]" />
+        <input type="text" name="invisibleTestcases[1][output]" />
+        <input type="text" name="invisibleTestcases[2][input]" />
+        <input type="text" name="invisibleTestcases[2][output]" />
+        <p>Cpp</p>
+        <p>driver start</p>
+        <textarea
+          type="text"
+          id="code"
+          rows="10"
+          cols="100"
+          spellcheck="”false”"
+          name="codeTemplate[cpp][0][driverStart]"
+          placeholder="Write Your Code Here..."
+        ></textarea>
+        <p>driver end</p>
+        <textarea
+          rows="10"
+          cols="100"
+          name="codeTemplate[cpp][0][driverEnd]"
+        ></textarea>
+        <p>code start</p>
+        <textarea
+          rows="10"
+          cols="100"
+          name="codeTemplate[cpp][0][codeStart]"
+        ></textarea>
+
+        <p>Java</p>
+        <p>driver start</p>
+        <textarea
+          type="text"
+          id="code"
+          rows="10"
+          cols="100"
+          spellcheck="”false”"
+          name="codeTemplate[java][0][driverStart]"
+          placeholder="Write Your Code Here..."
+        ></textarea>
+        <p>driver end</p>
+        <textarea
+          rows="10"
+          cols="100"
+          name="codeTemplate[java][0][driverEnd]"
+        ></textarea>
+        <p>code start</p>
+        <textarea
+          rows="10"
+          cols="100"
+          name="codeTemplate[java][0][codeStart]"
+        ></textarea>
+
+        <p>Python</p>
+        <p>driver start</p>
+        <textarea
+          type="text"
+          id="code"
+          rows="10"
+          cols="100"
+          spellcheck="”false”"
+          name="codeTemplate[python][0][driverStart]"
+          placeholder="Write Your Code Here..."
+        ></textarea>
+        <p>driver end</p>
+        <textarea
+          rows="10"
+          cols="100"
+          name="codeTemplate[python][0][driverEnd]"
+        ></textarea>
+        <p>code start</p>
+        <textarea
+          rows="10"
+          cols="100"
+          name="codeTemplate[python][0][codeStart]"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
